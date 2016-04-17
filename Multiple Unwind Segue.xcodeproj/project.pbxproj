@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B2AA8C91CC3C9280087585B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2AA8C81CC3C9280087585B /* AppDelegate.swift */; };
+		7B2AA8CB1CC3C9280087585B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2AA8CA1CC3C9280087585B /* ViewController.swift */; };
+		7B2AA8CE1CC3C9280087585B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2AA8CC1CC3C9280087585B /* Main.storyboard */; };
+		7B2AA8D01CC3C9280087585B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B2AA8CF1CC3C9280087585B /* Assets.xcassets */; };
+		7B2AA8D31CC3C9280087585B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B2AA8D11CC3C9280087585B /* LaunchScreen.storyboard */; };
+		7B2AA8DE1CC3C9280087585B /* Multiple_Unwind_SegueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2AA8DD1CC3C9280087585B /* Multiple_Unwind_SegueTests.swift */; };
+		7B2AA8E91CC3C9280087585B /* Multiple_Unwind_SegueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2AA8E81CC3C9280087585B /* Multiple_Unwind_SegueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B2AA8DA1CC3C9280087585B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B2AA8BD1CC3C9280087585B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B2AA8C41CC3C9280087585B;
+			remoteInfo = "Multiple Unwind Segue";
+		};
+		7B2AA8E51CC3C9280087585B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B2AA8BD1CC3C9280087585B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B2AA8C41CC3C9280087585B;
+			remoteInfo = "Multiple Unwind Segue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B2AA8C51CC3C9280087585B /* Multiple Unwind Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multiple Unwind Segue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2AA8C81CC3C9280087585B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B2AA8CA1CC3C9280087585B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B2AA8CD1CC3C9280087585B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B2AA8CF1CC3C9280087585B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B2AA8D21CC3C9280087585B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B2AA8D41CC3C9280087585B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2AA8D91CC3C9280087585B /* Multiple Unwind SegueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiple Unwind SegueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2AA8DD1CC3C9280087585B /* Multiple_Unwind_SegueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiple_Unwind_SegueTests.swift; sourceTree = "<group>"; };
+		7B2AA8DF1CC3C9280087585B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B2AA8E41CC3C9280087585B /* Multiple Unwind SegueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multiple Unwind SegueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B2AA8E81CC3C9280087585B /* Multiple_Unwind_SegueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiple_Unwind_SegueUITests.swift; sourceTree = "<group>"; };
+		7B2AA8EA1CC3C9280087585B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B2AA8C21CC3C9280087585B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2AA8D61CC3C9280087585B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2AA8E11CC3C9280087585B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B2AA8BC1CC3C9280087585B = {
+			isa = PBXGroup;
+			children = (
+				7B2AA8C71CC3C9280087585B /* Multiple Unwind Segue */,
+				7B2AA8DC1CC3C9280087585B /* Multiple Unwind SegueTests */,
+				7B2AA8E71CC3C9280087585B /* Multiple Unwind SegueUITests */,
+				7B2AA8C61CC3C9280087585B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B2AA8C61CC3C9280087585B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B2AA8C51CC3C9280087585B /* Multiple Unwind Segue.app */,
+				7B2AA8D91CC3C9280087585B /* Multiple Unwind SegueTests.xctest */,
+				7B2AA8E41CC3C9280087585B /* Multiple Unwind SegueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B2AA8C71CC3C9280087585B /* Multiple Unwind Segue */ = {
+			isa = PBXGroup;
+			children = (
+				7B2AA8C81CC3C9280087585B /* AppDelegate.swift */,
+				7B2AA8CA1CC3C9280087585B /* ViewController.swift */,
+				7B2AA8CC1CC3C9280087585B /* Main.storyboard */,
+				7B2AA8CF1CC3C9280087585B /* Assets.xcassets */,
+				7B2AA8D11CC3C9280087585B /* LaunchScreen.storyboard */,
+				7B2AA8D41CC3C9280087585B /* Info.plist */,
+			);
+			path = "Multiple Unwind Segue";
+			sourceTree = "<group>";
+		};
+		7B2AA8DC1CC3C9280087585B /* Multiple Unwind SegueTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B2AA8DD1CC3C9280087585B /* Multiple_Unwind_SegueTests.swift */,
+				7B2AA8DF1CC3C9280087585B /* Info.plist */,
+			);
+			path = "Multiple Unwind SegueTests";
+			sourceTree = "<group>";
+		};
+		7B2AA8E71CC3C9280087585B /* Multiple Unwind SegueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B2AA8E81CC3C9280087585B /* Multiple_Unwind_SegueUITests.swift */,
+				7B2AA8EA1CC3C9280087585B /* Info.plist */,
+			);
+			path = "Multiple Unwind SegueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B2AA8C41CC3C9280087585B /* Multiple Unwind Segue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B2AA8ED1CC3C9280087585B /* Build configuration list for PBXNativeTarget "Multiple Unwind Segue" */;
+			buildPhases = (
+				7B2AA8C11CC3C9280087585B /* Sources */,
+				7B2AA8C21CC3C9280087585B /* Frameworks */,
+				7B2AA8C31CC3C9280087585B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multiple Unwind Segue";
+			productName = "Multiple Unwind Segue";
+			productReference = 7B2AA8C51CC3C9280087585B /* Multiple Unwind Segue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B2AA8D81CC3C9280087585B /* Multiple Unwind SegueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B2AA8F01CC3C9280087585B /* Build configuration list for PBXNativeTarget "Multiple Unwind SegueTests" */;
+			buildPhases = (
+				7B2AA8D51CC3C9280087585B /* Sources */,
+				7B2AA8D61CC3C9280087585B /* Frameworks */,
+				7B2AA8D71CC3C9280087585B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B2AA8DB1CC3C9280087585B /* PBXTargetDependency */,
+			);
+			name = "Multiple Unwind SegueTests";
+			productName = "Multiple Unwind SegueTests";
+			productReference = 7B2AA8D91CC3C9280087585B /* Multiple Unwind SegueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B2AA8E31CC3C9280087585B /* Multiple Unwind SegueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B2AA8F31CC3C9280087585B /* Build configuration list for PBXNativeTarget "Multiple Unwind SegueUITests" */;
+			buildPhases = (
+				7B2AA8E01CC3C9280087585B /* Sources */,
+				7B2AA8E11CC3C9280087585B /* Frameworks */,
+				7B2AA8E21CC3C9280087585B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B2AA8E61CC3C9280087585B /* PBXTargetDependency */,
+			);
+			name = "Multiple Unwind SegueUITests";
+			productName = "Multiple Unwind SegueUITests";
+			productReference = 7B2AA8E41CC3C9280087585B /* Multiple Unwind SegueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B2AA8BD1CC3C9280087585B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Aaqib Hussain";
+				TargetAttributes = {
+					7B2AA8C41CC3C9280087585B = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					7B2AA8D81CC3C9280087585B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B2AA8C41CC3C9280087585B;
+					};
+					7B2AA8E31CC3C9280087585B = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 7B2AA8C41CC3C9280087585B;
+					};
+				};
+			};
+			buildConfigurationList = 7B2AA8C01CC3C9280087585B /* Build configuration list for PBXProject "Multiple Unwind Segue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B2AA8BC1CC3C9280087585B;
+			productRefGroup = 7B2AA8C61CC3C9280087585B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B2AA8C41CC3C9280087585B /* Multiple Unwind Segue */,
+				7B2AA8D81CC3C9280087585B /* Multiple Unwind SegueTests */,
+				7B2AA8E31CC3C9280087585B /* Multiple Unwind SegueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B2AA8C31CC3C9280087585B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2AA8D31CC3C9280087585B /* LaunchScreen.storyboard in Resources */,
+				7B2AA8D01CC3C9280087585B /* Assets.xcassets in Resources */,
+				7B2AA8CE1CC3C9280087585B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2AA8D71CC3C9280087585B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2AA8E21CC3C9280087585B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B2AA8C11CC3C9280087585B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2AA8CB1CC3C9280087585B /* ViewController.swift in Sources */,
+				7B2AA8C91CC3C9280087585B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2AA8D51CC3C9280087585B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2AA8DE1CC3C9280087585B /* Multiple_Unwind_SegueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2AA8E01CC3C9280087585B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2AA8E91CC3C9280087585B /* Multiple_Unwind_SegueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B2AA8DB1CC3C9280087585B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B2AA8C41CC3C9280087585B /* Multiple Unwind Segue */;
+			targetProxy = 7B2AA8DA1CC3C9280087585B /* PBXContainerItemProxy */;
+		};
+		7B2AA8E61CC3C9280087585B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B2AA8C41CC3C9280087585B /* Multiple Unwind Segue */;
+			targetProxy = 7B2AA8E51CC3C9280087585B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B2AA8CC1CC3C9280087585B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B2AA8CD1CC3C9280087585B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B2AA8D11CC3C9280087585B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B2AA8D21CC3C9280087585B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B2AA8EB1CC3C9280087585B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B2AA8EC1CC3C9280087585B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B2AA8EE1CC3C9280087585B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multiple Unwind Segue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KodeSnippets.Multiple-Unwind-Segue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B2AA8EF1CC3C9280087585B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Multiple Unwind Segue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KodeSnippets.Multiple-Unwind-Segue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B2AA8F11CC3C9280087585B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Multiple Unwind SegueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KodeSnippets.Multiple-Unwind-SegueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiple Unwind Segue.app/Multiple Unwind Segue";
+			};
+			name = Debug;
+		};
+		7B2AA8F21CC3C9280087585B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Multiple Unwind SegueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KodeSnippets.Multiple-Unwind-SegueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multiple Unwind Segue.app/Multiple Unwind Segue";
+			};
+			name = Release;
+		};
+		7B2AA8F41CC3C9280087585B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Multiple Unwind SegueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KodeSnippets.Multiple-Unwind-SegueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Multiple Unwind Segue";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7B2AA8F51CC3C9280087585B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Multiple Unwind SegueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KodeSnippets.Multiple-Unwind-SegueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Multiple Unwind Segue";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B2AA8C01CC3C9280087585B /* Build configuration list for PBXProject "Multiple Unwind Segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2AA8EB1CC3C9280087585B /* Debug */,
+				7B2AA8EC1CC3C9280087585B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B2AA8ED1CC3C9280087585B /* Build configuration list for PBXNativeTarget "Multiple Unwind Segue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2AA8EE1CC3C9280087585B /* Debug */,
+				7B2AA8EF1CC3C9280087585B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B2AA8F01CC3C9280087585B /* Build configuration list for PBXNativeTarget "Multiple Unwind SegueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2AA8F11CC3C9280087585B /* Debug */,
+				7B2AA8F21CC3C9280087585B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B2AA8F31CC3C9280087585B /* Build configuration list for PBXNativeTarget "Multiple Unwind SegueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B2AA8F41CC3C9280087585B /* Debug */,
+				7B2AA8F51CC3C9280087585B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B2AA8BD1CC3C9280087585B /* Project object */;
+}
